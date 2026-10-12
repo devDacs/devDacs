@@ -1,4 +1,4 @@
-![Profile Views](https://komarev.com/ghpvc/?username=devDacs) &emsp; ![Followers](https://img.shields.io/github/followers/devDacs) &emsp; ![Stars](https://img.shields.io/github/stars/devDacs?label=Profile%20Stars&logo=Profile%20stars&logoColor=r) &emsp;
+[![wakatime](https://wakatime.com/badge/user/7e249b19-7046-482d-b786-ac619dcf951d.svg)](https://wakatime.com/@7e249b19-7046-482d-b786-ac619dcf951d) &emsp; ![Profile Views](https://komarev.com/ghpvc/?username=devDacs) &emsp; ![Followers](https://img.shields.io/github/followers/devDacs) &emsp; ![Stars](https://img.shields.io/github/stars/devDacs?label=Profile%20Stars&logo=Profile%20stars&logoColor=r) &emsp;
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=devDacs&margin-w=8&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
 
