@@ -1,4 +1,3 @@
-
 name: Metrics
 
 on:
@@ -19,6 +18,14 @@ jobs:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
         with:
+          filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_achievements: yes
+          plugin_achievements_achievements_display: compact
