@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Achievements
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -33,7 +33,7 @@ jobs:
 
       - name: Mildly interesting facts
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: habits-facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
 
       - name: Recent activity charts
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: habits-charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
