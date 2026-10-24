@@ -22,10 +22,52 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.svg
+          filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           # output_action: gist
           # committer_gist: ${{ secrets.GIST }}
-          plugin_achievements: yes
-          plugin_achievements_achievements_display: compact
+          # Temporarily disable the broken Achievements plugin
+          plugin_achievements: no
+          # plugin_achievements_achievements_display: compact
+
+      - name: Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          # output_action: gist
+          # committer_gist: ${{ secrets.GIST }}
+          # Temporarily disable the broken Achievements plugin
+          plugin_achievements: no
+          # plugin_achievements_achievements_display: compact
+
+      - name: Mildly interesting facts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: habits-facts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Asia/Taipei
+
+      - name: Recent activity charts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: habits-charts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Asia/Taipei
