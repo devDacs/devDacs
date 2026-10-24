@@ -1,4 +1,5 @@
-[![wakatime](https://wakatime.com/badge/user/7e249b19-7046-482d-b786-ac619dcf951d.svg)](https://wakatime.com/@7e249b19-7046-482d-b786-ac619dcf951d) &emsp; ![Profile Views](https://komarev.com/ghpvc/?username=devDacs) &emsp; ![Followers](https://img.shields.io/github/followers/devDacs) &emsp; ![Stars](https://img.shields.io/github/stars/devDacs?label=Profile%20Stars&logo=Profile%20stars&logoColor=r) &emsp;
+<!-- [![wakatime](https://wakatime.com/badge/user/7e249b19-7046-482d-b786-ac619dcf951d.svg)](https://wakatime.com/@7e249b19-7046-482d-b786-ac619dcf951d) &emsp; --> 
+![Profile Views](https://komarev.com/ghpvc/?username=devDacs) &emsp; ![Followers](https://img.shields.io/github/followers/devDacs) &emsp; ![Stars](https://img.shields.io/github/stars/devDacs?label=Profile%20Stars&logo=Profile%20stars&logoColor=r) &emsp;
 
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=devDacs&margin-w=8&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy) -->
 
@@ -6,7 +7,14 @@
 
 <!-- [![Sir Dacs' Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=devDacs&theme=react-dark)](https://github.com/Ashutosh00710/github-readme-activity-graph) -->
 
-![Metrics](/github-metrics.svg)
+[<img align="left" width="55%" alt="Sir Dacs' Achievement" src="/metrics-achievements.svg">](#)
+[<img align="right" width="40%" height="250" alt="Sir Dacs' Wakatime" src="/metrics-wakatime.svg">](#)
+[<img align="right" width="40%" height="250" alt="Sir Dacs' Charts" src="/metrics-habits-charts.svg">](#)
+
+[<img align="left"  alt="Sir Dacs' Activity" src="/metrics-activity.svg">](#)
+[<img align="left"  alt="Sir Dacs' Code" src="/metrics-code.svg">](#)
+[<img align="left" alt="Sir Dacs' Facts" src="/metrics-habits-facts.svg">](#)
+[<img align="left"  alt="Sir Dacs' RSS" src="/metrics-rss.svg">](#)
 
 ![Colorful line](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
