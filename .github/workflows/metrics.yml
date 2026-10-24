@@ -26,9 +26,9 @@ jobs:
           user: devdacs
           filename: github-metrics.svg
           base: ""
-          plugin_achievements: no
-          plugin_habits: no
           output_action: commit
+          retries: 3
+          retries_delay: 30
 
       - name: Achievements
         if: ${{ success() || failure() }}
@@ -40,6 +40,8 @@ jobs:
           base: ""
           plugin_achievements: yes
           output_action: commit
+          retries: 3
+          retries_delay: 30
 
       - name: Mildly interesting facts
         if: ${{ success() || failure() }}
@@ -52,7 +54,10 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
+          config_timezone: Asia/Manila
           output_action: commit
+          retries: 3
+          retries_delay: 30
 
       - name: Recent activity charts
         if: ${{ success() || failure() }}
@@ -65,6 +70,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
           config_timezone: Asia/Manila
           output_action: commit
+          retries: 3
+          retries_delay: 30
