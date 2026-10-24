@@ -22,10 +22,10 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: achievements.svg
+          filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          # output_action: gist
+          # committer_gist: ${{ secrets.GIST }}
           plugin_achievements: yes
           plugin_achievements_achievements_display: compact
