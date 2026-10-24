@@ -31,19 +31,6 @@ jobs:
           plugin_achievements: no
           # plugin_achievements_achievements_display: compact
 
-      - name: Achievements
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          # output_action: gist
-          # committer_gist: ${{ secrets.GIST }}
-          # Temporarily disable the broken Achievements plugin
-          plugin_achievements: no
-          # plugin_achievements_achievements_display: compact
-
       - name: Mildly interesting facts
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -51,8 +38,8 @@ jobs:
           filename: habits-facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          # output_action: gist
+          # committer_gist: ${{ secrets.GIST }}
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
@@ -65,8 +52,8 @@ jobs:
           filename: habits-charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          # output_action: gist
+          # committer_gist: ${{ secrets.GIST }}
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
