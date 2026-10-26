@@ -7,13 +7,6 @@ on:
   push:
     branches: ["main"]
 
-permissions:
-  contents: read
-
-concurrency:
-  group: github-metrics-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -26,7 +19,7 @@ jobs:
 
     steps:
       - name: Generate GitHub Metrics
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -39,7 +32,7 @@ jobs:
           retries_delay: 30
 
       - name: Achievements
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -55,7 +48,7 @@ jobs:
           retries_delay: 30
 
       - name: Mildly interesting facts
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -72,7 +65,7 @@ jobs:
           retries_delay: 30
 
       - name: Recent activity charts
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -89,7 +82,7 @@ jobs:
           retries_delay: 30
 
       - name: Recent activity
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -106,7 +99,7 @@ jobs:
           retries_delay: 30
 
       - name: JavaScript or TypeScript snippet of the day
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -122,7 +115,7 @@ jobs:
           retries_delay: 30
 
       - name: News from hackernews
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
@@ -137,7 +130,7 @@ jobs:
           retries_delay: 30
 
       - name: WakaTime
-        if: ${{ !cancelled() }}
+        if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
