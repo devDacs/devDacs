@@ -20,20 +20,18 @@ jobs:
     steps:
       - name: Generate GitHub Metrics
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: devdacs
           filename: github-metrics.svg
-          base: ""
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: Achievements
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -43,13 +41,13 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: Mildly interesting facts
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -60,13 +58,13 @@ jobs:
           plugin_habits_charts: no
           config_timezone: Asia/Manila
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: Recent activity charts
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -77,13 +75,13 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Asia/Manila
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: Recent activity
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -94,13 +92,13 @@ jobs:
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: JavaScript or TypeScript snippet of the day
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -110,13 +108,13 @@ jobs:
           plugin_code_languages: javascript, typescript
           plugin_code_load: 400
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: News from hackernews
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: NOT_NEEDED
           filename: metrics-rss.svg
@@ -125,13 +123,13 @@ jobs:
           plugin_rss_source: https://news.ycombinator.com/rss
           plugin_rss_limit: 4
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
 
       - name: WakaTime
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@v3.35.0-community.2
+        uses: EUR-UN/metrics-community@latest
         with:
           token: NOT_NEEDED
           filename: metrics-wakatime.svg
@@ -140,6 +138,6 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           output_action: gist
-          commiter_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST }}
           retries: 3
           retries_delay: 30
