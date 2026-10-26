@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Generate GitHub Metrics
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
@@ -31,7 +31,7 @@ jobs:
 
       - name: Achievements
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -47,7 +47,7 @@ jobs:
 
       - name: Mildly interesting facts
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -64,7 +64,7 @@ jobs:
 
       - name: Recent activity charts
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -81,7 +81,7 @@ jobs:
 
       - name: Recent activity
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -98,7 +98,7 @@ jobs:
 
       - name: JavaScript or TypeScript snippet of the day
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -114,7 +114,7 @@ jobs:
 
       - name: News from hackernews
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
           filename: metrics-rss.svg
@@ -129,7 +129,7 @@ jobs:
 
       - name: WakaTime
         if: ${{ success() || failure() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
           filename: metrics-wakatime.svg
