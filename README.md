@@ -12,7 +12,7 @@
 
 | [![Isocalendar Full Year](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/isocalendar-fullyear.svg)][4] | [![Github Metrics](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/github-metrics.svg)][4] |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [![Wakatime](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/metrics-wakatime.svg)][4]                  | [![RSS](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/metrics-rss.svg)][4]               |
+| [![Wakatime](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/wakatime.svg)][4]                  | [![RSS](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/rss.svg)][4]               |
 
 ![Colorful line](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
