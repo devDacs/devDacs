@@ -10,9 +10,9 @@
 
 <!-- [![Sir Dacs' Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=devDacs&theme=react-dark)](https://github.com/Ashutosh00710/github-readme-activity-graph) -->
 
-| [![Isocalendar Full Year](https://gist.githubusercontent.com/devDacs/470ec21e5bb72ad7910be1de77d1d461/raw/isocalendar-fullyear.svg)][4] | [![Github Metrics](https://gist.githubusercontent.com/devDacs/470ec21e5bb72ad7910be1de77d1d461/raw/github-metrics.svg)][4] |
+| [![Isocalendar Full Year](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/isocalendar-fullyear.svg)][4] | [![Github Metrics](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/github-metrics.svg)][4] |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [![Wakatime](https://gist.githubusercontent.com/devDacs/470ec21e5bb72ad7910be1de77d1d461/raw/metrics-wakatime.svg)][4]                  | [![RSS](https://gist.githubusercontent.com/devDacs/470ec21e5bb72ad7910be1de77d1d461/raw/metrics-rss.svg)][4]               |
+| [![Wakatime](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/metrics-wakatime.svg)][4]                  | [![RSS](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/metrics-rss.svg)][4]               |
 
 ![Colorful line](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
