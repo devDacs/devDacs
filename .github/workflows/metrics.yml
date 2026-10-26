@@ -116,7 +116,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
-          token: NOT_NEEDED
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics-rss.svg
           base: ""
           plugin_rss: yes
@@ -131,7 +131,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
-          token: NOT_NEEDED
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics-wakatime.svg
           base: ""
           plugin_wakatime: yes
