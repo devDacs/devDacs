@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Generate GitHub Metrics
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -40,7 +40,7 @@ jobs:
 
       - name: Achievements
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -56,7 +56,7 @@ jobs:
 
       - name: Mildly interesting facts
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -73,7 +73,7 @@ jobs:
 
       - name: Recent activity charts
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -90,7 +90,7 @@ jobs:
 
       - name: Recent activity
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -107,7 +107,7 @@ jobs:
 
       - name: JavaScript or TypeScript snippet of the day
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: devdacs
@@ -123,7 +123,7 @@ jobs:
 
       - name: News from hackernews
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
           filename: metrics-rss.svg
@@ -138,7 +138,7 @@ jobs:
 
       - name: WakaTime
         if: ${{ !cancelled() }}
-        uses: EUR-UN/metrics-community@latest
+        uses: EUR-UN/metrics-community@v3.35.0-community.2
         with:
           token: NOT_NEEDED
           filename: metrics-wakatime.svg
