@@ -53,7 +53,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: wakatime
-          options: username=YOUR_WAKATIME_USERNAME&layout=compact&langs_count=6&theme=tokyonight
+          options: username=7e249b19-7046-482d-b786-ac619dcf951d&layout=compact&langs_count=6&theme=tokyonight
           path: wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
