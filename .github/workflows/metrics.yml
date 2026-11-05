@@ -23,7 +23,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.METRICS_GIST_ID }}
           retries: 3
           retries_delay: 30
 
@@ -36,7 +36,7 @@ jobs:
           user: devdacs
           base: ""
           output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.METRICS_GIST_ID }}
           retries: 3
           retries_delay: 30
           plugin_isocalendar: yes
@@ -54,7 +54,7 @@ jobs:
       #     plugin_achievements_display: compact
       #     plugin_achievements_threshold: X
       #     output_action: gist
-      #     committer_gist: ${{ secrets.GIST }}
+      #     committer_gist: ${{ secrets.METRICS_GIST_ID }}
       #     retries: 3
       #     retries_delay: 30
 
@@ -71,7 +71,7 @@ jobs:
       #     plugin_habits_charts: no
       #     config_timezone: Asia/Manila
       #     output_action: gist
-      #     committer_gist: ${{ secrets.GIST }}
+      #     committer_gist: ${{ secrets.METRICS_GIST_ID }}
       #     retries: 3
       #     retries_delay: 30
 
@@ -88,7 +88,7 @@ jobs:
       #     plugin_habits_charts: yes
       #     config_timezone: Asia/Manila
       #     output_action: gist
-      #     committer_gist: ${{ secrets.GIST }}
+      #     committer_gist: ${{ secrets.METRICS_GIST_ID }}
       #     retries: 3
       #     retries_delay: 30
 
@@ -105,7 +105,7 @@ jobs:
       #     plugin_activity_days: 0
       #     plugin_activity_filter: issue, pr, release, fork, review, ref/create
       #     output_action: gist
-      #     committer_gist: ${{ secrets.GIST }}
+      #     committer_gist: ${{ secrets.METRICS_GIST_ID }}
       #     retries: 3
       #     retries_delay: 30
 
@@ -121,7 +121,7 @@ jobs:
       #     plugin_code_languages: javascript, typescript
       #     plugin_code_load: 400
       #     output_action: gist
-      #     committer_gist: ${{ secrets.GIST }}
+      #     committer_gist: ${{ secrets.METRICS_GIST_ID }}
       #     retries: 3
       #     retries_delay: 30
 
@@ -136,7 +136,7 @@ jobs:
           plugin_rss_source: https://news.ycombinator.com/rss
           plugin_rss_limit: 4
           output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.METRICS_GIST_ID }}
           retries: 3
           retries_delay: 30
 
@@ -151,6 +151,6 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.METRICS_GIST_ID }}
           retries: 3
           retries_delay: 30
