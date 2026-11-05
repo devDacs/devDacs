@@ -67,13 +67,11 @@ jobs:
           jq -n \
             --rawfile stats stats.svg \
             --rawfile languages top-langs.svg \
-            --rawfile pin pin-stats-organization-github-readme-stats.svg \
             --rawfile wakatime wakatime.svg \
             '{
               files: {
                 "stats.svg": {content: $stats},
                 "top-langs.svg": {content: $languages},
-                "pin.svg": {content: $pin},
                 "wakatime.svg": {content: $wakatime}
               }
             }' > payload.json
