@@ -41,7 +41,7 @@ jobs:
 
       - name: Update GitHub Gist
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
           GIST_ID: ${{ secrets.README_STATS_GIST_ID }}
         run: |
           jq -n \
