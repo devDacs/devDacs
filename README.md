@@ -12,12 +12,12 @@
 
 | [![Isocalendar Full Year](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/isocalendar-fullyear.svg)][4] | [![Github Metrics](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/github-metrics.svg)][4] |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [![Wakatime](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/wakatime.svg)][4]                  | [![RSS](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/rss.svg)][4]               |
+| [![Wakatime](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/wakatime.svg)][4]                          | [![RSS](https://gist.githubusercontent.com/devDacs/9d46e4cfd6b8756b13f4c4f8451e5878/raw/rss.svg)][4]                       |
 
 ![Colorful line](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-| [![GitHub stats](https://github-readme-stats.vercel.app/api?username=devDacs&show_icons=true&theme=tokyonight)][5] | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devDacs&layout=compact&show_icons=true&theme=tokyonight)][5] | [![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=devDacs&theme=tokyonight)][5] |
-| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [![GitHub stats](https://github-readme-stats.vercel.app/api?username=devDacs&show_icons=true&theme=tokyonight)][5] | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devDacs&layout=compact&show_icons=true&theme=tokyonight)][5] | [![GitHub Streak](https://streak-stats.demolab.com/?user=devDacs&theme=tokyonight)][6] |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dacasinjoshua26@gmail.com) &emsp;
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/codewithjosh)
@@ -27,3 +27,4 @@
 [3]: https://shields.io/badges/git-hub-repo-stars
 [4]: https://github.com/lowlighter/metrics
 [5]: https://github.com/stats-organization/github-stats-extended
+[6]: https://git.io/streak-stats
