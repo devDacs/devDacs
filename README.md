@@ -16,7 +16,7 @@
 
 ![Colorful line](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-| [![GitHub stats](https://gist.githubusercontent.com/devDacs/8fec6bfe7423a85d11ff3845d567c672/raw/stats.svg)][5] | [![Top Langs](https://gist.githubusercontent.com/devDacs/8fec6bfe7423a85d11ff3845d567c672/raw/top-langs.svg)][5] | [![GitHub Streak](https://streak-stats.demolab.com/?user=devDacs&theme=tokyonight)][6] |
+| [![GitHub stats](https://gist.githubusercontent.com/devDacs/8fec6bfe7423a85d11ff3845d567c672/raw/stats.svg)][5] | [![Top Langs](https://gist.githubusercontent.com/devDacs/8fec6bfe7423a85d11ff3845d567c672/raw/top-langs.svg)][5] | [![GitHub Streak](https://gist.githubusercontent.com/devDacs/afc9fcfeb6f20a7888a8c1d2236d9743/raw/streak.svg)][6] |
 | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dacasinjoshua26@gmail.com) &emsp;
@@ -28,3 +28,4 @@
 [4]: https://github.com/lowlighter/metrics
 [5]: https://github.com/stats-organization/github-readme-stats-action
 [6]: https://git.io/streak-stats
+
